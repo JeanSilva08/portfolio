@@ -119,6 +119,21 @@ body{
     line-height: 10px;
 }
 
+.certificate-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            margin-top: 5px;
+            margin-left: 20px;
+            border-radius: 30px;
+            background-color: #0e090986; 
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .certificate-btn:hover {
+            background-color: #0e090986;}
+
 .whatsapp-btn {
     position: fixed;
     bottom: 20px;
