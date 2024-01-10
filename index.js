@@ -26,9 +26,9 @@ function toggle_onclick($win, $navbar, width){
 
 var typed = new Typed('#typed' , {
     strings: [
-        'Front-end',
         'JavaScript',
-        'PHP'
+        'Python',
+        'Java'
     ],
     typeSpeed: 50,
     backSpeed: 50,
