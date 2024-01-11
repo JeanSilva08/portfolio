@@ -155,6 +155,20 @@ body{
     line-height: 10px;
 }
 
+.btn-custom {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-left: -5px;
+    border-radius: 30px;
+    background-color: #6C757D; 
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 20px; 
+
+}
+
 .certificate-btn {
             display: inline-block;
             padding: 5px 10px;
