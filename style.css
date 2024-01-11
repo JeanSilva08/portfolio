@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 
+
+@media screen and (max-width: 767px) {
+    .font-ram.text-black-50.py-2 {
+      margin-top: 30px;
+    }
+  }
+  
 body{
     margin: 0;
     padding: 0;
@@ -50,8 +57,8 @@ body{
     font-size: 18px;
     line-height: 1.6;
     color: #333;
-    margin-top: 20px;
-    margin-bottom: 20px; /* Espaçamento inferior para melhorar a legibilidade */
+    margin-top: -8px;
+    margin-bottom: 20px; 
 }
 
 .font-ram a {
@@ -141,6 +148,7 @@ body{
     background: url(./assets/about.jpg) no-repeat;
     background-size: 105%;
     background-position: 40% 0;
+    
 }
 
 .skill .bars p, .site-content .skill .bars span{
@@ -153,14 +161,14 @@ body{
             margin-top: 5px;
             margin-left: 20px;
             border-radius: 30px;
-            background-color: #0e090986; 
+            background-color: #6C757D; 
             color: #fff;
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
 
         .certificate-btn:hover {
-            background-color: #0e090986;}
+            background-color: #23272B;}
 
 .whatsapp-btn {
     position: fixed;
